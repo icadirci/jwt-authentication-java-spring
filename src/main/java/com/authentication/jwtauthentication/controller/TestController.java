@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("/all")
     public String allAccess() {
-        return "Public Endpoint!";
+        return "Public Endpoint. it's ok.";
     }
     @GetMapping("/user")
     public String userAccess() {
